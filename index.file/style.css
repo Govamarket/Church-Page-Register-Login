@@ -1,0 +1,168 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200;300&family=Roboto&family=Sora:wght@500&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(30,30,30);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+nav .logo{
+  color: #fff;
+  margin-right: 6rem;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: rgb(9,16,148);
+  width: 100%;
+  padding: 2rem;
+}
+.navlinks{
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  /* width: 30%; */
+
+}
+input{
+  width: 4rem;
+  height: 25px;
+  border: 1px solid #fff;
+  border-radius: 3rem;
+  outline: none;
+}
+
+
+#blue{
+  background-color: rgb(9,16,148);
+  color: #fff;
+}
+
+#white{
+  background-color: #fff;
+  color: rgb(14, 26, 249);
+}
+
+form{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 6px;
+}
+
+
+.navlinks li{
+  list-style: none;
+}
+.navlinks a{
+  text-decoration: none;
+  color: #fff;
+}
+/* icons */
+.fa-solid{
+  color: #fff;
+}
+
+.burger{
+  display: none;
+  cursor: pointer;
+}
+
+.burger div{
+  width: 25px;
+  min-height: 3px;
+  margin: 5px;
+  background-color: #fff;
+}
+
+.container{
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(/img/Rectangle\ 23.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 350px;
+}
+.green{
+  color: rgb(13, 243, 13);
+}
+.text{
+  text-align: center;
+  letter-spacing: 4px;
+  align-content: center;
+  padding-top: 8rem;
+  text-transform: normal;
+  color: #fff;
+  line-height: 2em;
+}
+.btop{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 1rem;
+}
+
+button{
+  background-color: blue;
+  color: #fff;
+  outline: none;
+  border: 0;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 4rem;
+}
+@media screen and (max-width: 600px){
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(9,16,148);
+    /* margin: 1rem; */
+  }
+  .navlinks{
+    display: none;
+    justify-content: space-around;
+    gap: 1rem;
+    /* width: 30%; */
+  }
+
+  .burger{
+    display: block;
+  }
+
+  .text{
+    text-align: center;
+    align-content: center;
+    text-transform: normal;
+    color: #fff;
+  }
+  
+}
+
+@media screen and (min-width: 768px){
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(9,16,148);
+    width: 100%;  
+  }
+  .text{
+    text-align: center;
+    align-content: center;
+    text-transform: normal;
+    color: #fff;
+  }
+  
+  
+}
