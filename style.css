@@ -174,13 +174,13 @@ button{
 }
 
 .glop{
-  border: 2px solid #fff;
+  /* border: 2px solid #fff; */
   margin-right: 10px;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
-  padding: 6px;
+  /* padding: 6px; */
   margin-top: 1rem;
 }
 
@@ -189,7 +189,7 @@ button{
   height: 100%;
   margin-left: 1rem;
   margin-top: 1rem;
-  border-top-left-radius: 2rem;
+  border-top-left-radius: 3px;
   border-top-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
