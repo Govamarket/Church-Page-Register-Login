@@ -227,7 +227,7 @@ button{
 }
 
 .allslide{
-  background-color: #fff;
+  background-color: rgb(10, 4, 80);
 }
 
 
@@ -235,48 +235,25 @@ button{
 .rows .slide4 img{
   height: 100%;
 }
-.rows .slide4 img{
-  transition: all 0.5s ease-in-out;
-  overflow-wrap: break-word;
-  overscroll-behavior: scroll;
-  overflow-x: hidden;
-  transform: skew(100%);
-  animation: fade 7.5s ease-in-out infinite;
-}
-
-@keyframes fade {
-  0% {
-    transform: skew(0);
-  }
-
-  30%{
-    transform: skew(30%);
-  }
-}
-
-.rows .slide3 img{
-  transition: all 0.5s ease-in-out;
-  animation: alternate-reverse ease-in-out infinite;
-}
 
 
 
 span p{
   text-align: center;
   /* border: 2px solid rgb(216, 202, 238); */
-  background-color:  rgb(27, 27, 67);
-  color: #fff;
-  border-top-right-radius: 3rem;
-  border-bottom-left-radius: 3rem;
-  padding: 10px;
+  background-color: #f3f3fa;
+  color: rgb(23, 17, 17);
+  border-top-left-radius: 4rem;
+  border-top-left-radius: 4rem;
+  padding: 4px;
   font-family: "Roboto", sans-serif;
 }
 
 
 
 .box{
-  background-color: rgb(8,15,147);
-  /* margin: 1rem 0; */
+  background-color: #091094;
+  margin: 2rem 0;
 }
 .col1{
   display: flex;
@@ -308,6 +285,7 @@ span p{
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
+  margin: 1rem;
 }
 .col2{
   display: flex;
@@ -316,6 +294,7 @@ span p{
   height: auto;
   border-top-left-radius: 2rem;
   color: #fff;
+  margin: 1rem;
 }
 span h2{
   text-align: center;
