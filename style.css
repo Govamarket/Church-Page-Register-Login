@@ -271,7 +271,7 @@ span p{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  width: 30rem;
+  width: 40rem;
   transition: all 1s ease-in-out;
   animation: round 1s ease-in-out infinite;
 }
