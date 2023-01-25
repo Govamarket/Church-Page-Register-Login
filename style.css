@@ -114,16 +114,18 @@ background: linear-gradient(rgba(11, 30, 175, 0.5), rgba(0, 0, 0, 0.5)),  url(/i
   justify-content: center;
   position: relative;
   margin: 1rem;
+  padding-top: 1rem;
 }
 
 button{
-  background-color: blue;
+  background-color: rgb(13, 13, 83);
   color: #fff;
   outline: none;
   border: 0;
   width: 8rem;
-  height: 2rem;
+  height: 3rem;
   border-radius: 4rem;
+  font-family: "Roboto", sans-serif;
 }
  
 
@@ -171,6 +173,12 @@ button{
 #para{
   font-size: 10px;
   line-height: 2rem;
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 }
 
@@ -249,27 +257,74 @@ button{
 .rows .slide3 img{
   transition: all 0.5s ease-in-out;
   animation: alternate-reverse ease-in-out infinite;
-  transform: rotateY(20%);
-  background-position: fixed;
-  background-attachment: fixed;
-  background-size: contain;
 }
 
-@keyframes alternate-reverse{
-  0%{
-    transform: scaleY(0);
-  }
-  30%{
-    transform: scaleY(30%);
-  }
-}
+
 
 span p{
   text-align: center;
   /* border: 2px solid rgb(216, 202, 238); */
-  background-color: rgb(34, 23, 23);
+  background-color:  rgb(27, 27, 67);
   color: #fff;
-  border-top-right-radius: 1rem;
-  border-top-left-radius: 1rem;
+  border-top-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
   padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+.box{
+  background-color: rgb(8,15,147);
+  margin: 1rem 0;
+}
+.col1{
+  display: flex;
+  justify-content: center;
+  background-image: url(/img/daniel-schaffer-25TdvIG_G6s-unsplash.jpg);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 30rem;
+  transition: all 1s ease-in-out;
+  animation: round 1s ease-in-out infinite;
+}
+
+@keyframes round{
+  from{
+    background-image: url(/img/hannah-busing-FF049vNP1eg-unsplash\ \(copy\).jpg);
+  }
+  to{
+    background-image: url(/img/nathan-mullet-pmiW630yDPE-unsplash\ \(copy\).jpg);
+  }
+}
+.col1 img{
+  width: 20rem;
+  height: 20rem;
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+.col2{
+  display: flex;
+  border: 1px solid #fff;
+  width: 20rem;
+  height: auto;
+  border-top-left-radius: 2rem;
+  color: #fff;
+}
+span h2{
+  text-align: center;
+  /* padding: 2rem; */
+}
+section p{
+  padding: 10px;
+}
+span .fa-sharp{
+  margin-left: 1rem;
+  margin-top: 1rem;;
 }
