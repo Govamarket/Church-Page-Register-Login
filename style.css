@@ -276,7 +276,7 @@ span p{
 
 .box{
   background-color: rgb(8,15,147);
-  margin: 1rem 0;
+  /* margin: 1rem 0; */
 }
 .col1{
   display: flex;
