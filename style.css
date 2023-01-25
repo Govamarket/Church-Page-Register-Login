@@ -266,11 +266,10 @@ button{
 
 span p{
   text-align: center;
-  border: 2px solid rgb(216, 202, 238);
-  background-color: red;
+  /* border: 2px solid rgb(216, 202, 238); */
+  background-color: rgb(34, 23, 23);
   color: #fff;
   border-top-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
-  padding: 1rem;
-  
+  border-top-left-radius: 1rem;
+  padding: 10px;
 }
