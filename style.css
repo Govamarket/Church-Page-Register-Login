@@ -180,6 +180,16 @@ button{
   align-items: center;
   flex-wrap: wrap;
 }
+
+.rows{
+  display: flex;
+  position: relative;
+  gap: 2px;
+  overflow-x: auto;
+  animation: forwards 1s ease infinite;
+  transition: all 0.5s ease-in-out;
+}
+
 }
 
 /* Meida ends */
@@ -220,14 +230,14 @@ button{
 .rows{
   display: flex;
   position: relative;
-  gap: 5px;
+  gap: 2px;
   overflow-x: scroll;
   animation: forwards 1s ease infinite;
   transition: all 0.5s ease-in-out;
 }
 
 .allslide{
-  background-color: rgb(10, 4, 80);
+  background-color: rgb(16, 5, 137);
 }
 
 
@@ -243,9 +253,7 @@ span p{
   /* border: 2px solid rgb(216, 202, 238); */
   background-color: #f3f3fa;
   color: rgb(23, 17, 17);
-  border-top-left-radius: 4rem;
-  border-top-left-radius: 4rem;
-  padding: 4px;
+  padding: 3px;
   font-family: "Roboto", sans-serif;
 }
 
