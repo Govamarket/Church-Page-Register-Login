@@ -212,9 +212,9 @@ button{
 .rows{
   display: flex;
   position: relative;
-  overflow-x: auto;
+  gap: 5px;
+  overflow-x: scroll;
   animation: forwards 1s ease infinite;
-  transform: translateX(0%);
   transition: all 0.5s ease-in-out;
 }
 
@@ -222,20 +222,55 @@ button{
   background-color: #fff;
 }
 
-.rows img{
-transition: all 0.5s ease-in-out;
-animation: alternate-reverse 0.5s ease-in-out infinite;
 
-}
 
 .rows .slide4 img{
   height: 100%;
 }
-.rows .slide4 img:hover{
+.rows .slide4 img{
   transition: all 0.5s ease-in-out;
   overflow-wrap: break-word;
   overscroll-behavior: scroll;
   overflow-x: hidden;
-  transform: scale(3);
-  animation: fade in 0.5s ease-in-out;
+  transform: skew(100%);
+  animation: fade 7.5s ease-in-out infinite;
+}
+
+@keyframes fade {
+  0% {
+    transform: skew(0);
+  }
+
+  30%{
+    transform: skew(30%);
+  }
+}
+
+.rows .slide3 img{
+  transition: all 0.5s ease-in-out;
+  animation: alternate-reverse ease-in-out infinite;
+  transform: rotateY(20%);
+  background-position: fixed;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+@keyframes alternate-reverse{
+  0%{
+    transform: scaleY(0);
+  }
+  30%{
+    transform: scaleY(30%);
+  }
+}
+
+span p{
+  text-align: center;
+  border: 2px solid rgb(216, 202, 238);
+  background-color: red;
+  color: #fff;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding: 1rem;
+  
 }
