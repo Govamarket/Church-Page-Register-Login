@@ -205,6 +205,9 @@ button{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
 
+
+  
+
 }
 
 /* Meida ends */
@@ -357,9 +360,10 @@ font-family: 'Open Sans', sans-serif;
 
 #row{
 display: flex;
-justify-content: space-around;
+justify-content: center;
 gap: 5px;
 flex-wrap: wrap;
+/* max-width: 50%; */
 }
 
 #row p{
@@ -375,9 +379,10 @@ flex-wrap: wrap;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 2rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+  width: 30rem;
 }
 #col h1{
   display: flex;
   justify-content: center;
 }
-
