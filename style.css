@@ -239,7 +239,9 @@ button{
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
-
+ .allslide{
+  background-color: rgb(199, 196, 196);
+ }
 
 .allslide img{
   width: 10rem;
@@ -248,15 +250,9 @@ button{
 .rows{
   display: flex;
   position: relative;
-  gap: 2px;
   overflow-x: scroll;
-  animation: forwards 1s ease infinite;
-  transition: all 0.5s ease-in-out;
 }
 
-.allslide{
-  /* background-color: rgb(16, 5, 137); */
-}
 
 
 
@@ -279,7 +275,7 @@ span p{
 
 .box{
   background-color: #091094;
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
 }
 .col1{
   display: flex;
