@@ -494,3 +494,28 @@ html, body {
 .carousel .fa-solid{
   color: #0707c3;
 }
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: #fff;
+ margin-bottom: 4rem;
+}
+
+form{
+  position: absolute;
+}
+#signUp{
+  border-radius: 4px;
+  width: 15rem;
+  height: 2.34rem;
+}
+span input{
+  border-radius: 4px;
+  width: 7rem;
+  height: 2.34rem;
+  background-color: red;
+  color: #fff;
+  /* position: absolute; */
+}
