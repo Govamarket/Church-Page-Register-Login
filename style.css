@@ -87,7 +87,7 @@ form{
 }
 
 .container{
-background: linear-gradient(rgba(11, 30, 175, 0.5), rgba(0, 0, 0, 0.5)),  url(/img/Rectangle\ 23.png);
+background: linear-gradient(rgba(11, 30, 175, 0.5), rgba(0, 0, 0, 0.5)),  url(/img/right.svg);
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -246,7 +246,7 @@ button{
   transform: rotate(45deg) translate(-5px, -6px);
 }
  .allslide{
-  background-color: rgb(199, 196, 196);
+  background-color:#0D0D53;
  }
 
 .allslide img{
@@ -280,7 +280,7 @@ span p{
 
 
 .box{
-  background-color: #091094;
+  background-color: #0D0D53;
   /* margin: 2rem 0; */
 }
 .col1{
@@ -399,8 +399,6 @@ html, body {
 
 .carousel {
   position: relative;
-  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-  /* margin-top: 26px; */
   margin-bottom: 3rem;
 }
 
@@ -436,7 +434,8 @@ html, body {
 }
 
 .carousel-control {
-  background: rgba(0, 0, 0, 0.28);
+  border: none;
+  outline: none;
   border-radius: 50%;
   color: #fff;
   cursor: pointer;
@@ -464,7 +463,7 @@ html, body {
 }
 
 .carousel-control:hover {
-  background: rgba(0, 0, 0, 0.8);
+  /* background: rgba(0, 0, 0, 0.8); */
   color: #aaaaaa;
 }
 
