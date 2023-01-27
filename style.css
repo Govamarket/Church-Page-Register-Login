@@ -245,53 +245,20 @@ button{
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
- .allslide{
-  background-color:#0D0D53;
- }
-
-.allslide img{
-  width: 10rem;
-}
-
-.rows{
-  display: flex;
-  position: relative;
-  overflow-x: scroll;
-}
-
-
-
-
-.rows .slide4 img{
-  height: 100%;
-}
-
-
-
-span p{
-  text-align: center;
-  /* border: 2px solid rgb(216, 202, 238); */
-  background-color: #f3f3fa;
-  color: rgb(23, 17, 17);
-  padding: 3px;
-  font-family: "Roboto", sans-serif;
-}
 
 
 
 .box{
   background-color: #0D0D53;
-  /* margin: 2rem 0; */
 }
 .col1{
-  display: flex;
-  justify-content: center;
   background-image: url(/img/daniel-schaffer-25TdvIG_G6s-unsplash.jpg);
   background-position: fixed;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   width: 40rem;
+  height: 30rem;
   transition: all 1s ease-in-out;
   animation: round 1s ease-in-out infinite;
 }
@@ -304,16 +271,13 @@ span p{
     background-image: url(/img/nathan-mullet-pmiW630yDPE-unsplash\ \(copy\).jpg);
   }
 }
-.col1 img{
-  width: 20rem;
-  height: 20rem;
-}
+
 .row{
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 2px;
-  margin: 1rem;
+  /* margin: 1rem;   */
 }
 .col2{
   display: flex;
@@ -403,8 +367,7 @@ html, body {
 }
 
 .carousel h2{
-  display: flex;
-  justify-content: center;
+  text-align: center;
   color: rgb(6, 6, 6);
   text-transform: capitalize;
   background-color: #fff;
@@ -526,4 +489,8 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   text-transform: capitalize;
+}
+
+.carousel .fa-solid{
+  color: #0707c3;
 }
