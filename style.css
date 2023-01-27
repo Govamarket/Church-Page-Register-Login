@@ -194,6 +194,13 @@ button{
   width: 15rem;
 }
 
+#row{
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+  }
+
 }
 
 /* Meida ends */
@@ -301,10 +308,12 @@ span p{
 }
 .col2{
   display: flex;
-  border: 1px solid #fff;
+  border-left: 1px solid rgb(243, 238, 238);
+  border-width: 5px;
   width: 20rem;
   height: auto;
-  /* border-top-left-radius: 2rem; */
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
   color: #fff;
   margin: 1rem;
 }
@@ -318,4 +327,51 @@ section p{
 span .fa-sharp{
   margin-left: 1rem;
   margin-top: 1rem;;
+}
+.main{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #fff;
+}
+
+.main h2{
+display: flex;
+justify-content: center;
+margin-top: 2rem;
+}
+
+.main h2 span{
+  color: #091094;
+}
+
+.main .fa-solid{
+  color: black;
+}
+
+#row{
+display: flex;
+justify-content: space-around;
+gap: 1rem;
+}
+
+#row p{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#col{
+  line-height: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+#col1{
+  line-height: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+#col3{
+  line-height: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
