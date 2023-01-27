@@ -201,6 +201,10 @@ button{
   flex-wrap: wrap;
   }
 
+  #col{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
 }
 
 /* Meida ends */
@@ -309,7 +313,8 @@ span p{
 .col2{
   display: flex;
   border-left: 1px solid rgb(243, 238, 238);
-  border-width: 5px;
+  border-left: 1px solid rgb(243, 238, 238);
+  border-width: 2px;
   width: 20rem;
   height: auto;
   border-top-left-radius: 2rem;
@@ -323,40 +328,45 @@ span h2{
 }
 section p{
   padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 span .fa-sharp{
   margin-left: 1rem;
   margin-top: 1rem;;
 }
 .main{
-  /* margin-left: 1rem; */
-  /* margin-right: 1rem; */
   background-color: #fff;
 }
 
 .main h2{
 display: flex;
 justify-content: center;
-margin-top: 2rem;
+padding: 2rem;
+font-family: 'Open Sans', sans-serif;
 }
 
 .main h2 span{
-  color: #091094;
+  color: #0f0f11;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .main .fa-solid{
-  color: black;
+  color: rgb(20, 20, 173);
 }
 
 #row{
 display: flex;
 justify-content: space-around;
-gap: 1rem;
+gap: 5px;
+flex-wrap: wrap;
 }
 
 #row p{
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  box-shadow: inset;
 
 }
 
@@ -364,14 +374,10 @@ gap: 1rem;
   line-height: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-bottom: 2rem;
 }
-#col1{
-  line-height: 2rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+#col h1{
+  display: flex;
+  justify-content: center;
 }
-#col3{
-  line-height: 2rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
+
