@@ -500,22 +500,50 @@ footer{
   justify-content: space-evenly;
   background-color: black;
   color: #fff;
- margin-bottom: 4rem;
+  gap: 4px;
+ padding-bottom:  4rem;
 }
 
 form{
+  margin-top: 1rem;
   position: absolute;
+  margin-left: 1rem;
 }
+
 #signUp{
   border-radius: 4px;
-  width: 15rem;
+  width: 13rem;
   height: 2.34rem;
 }
 span input{
   border-radius: 4px;
-  width: 7rem;
+  width: 5rem;
   height: 2.34rem;
-  background-color: red;
+  background-color: rgb(38, 53, 192);
   color: #fff;
-  /* position: absolute; */
+  outline: none;
+  border: 0;
+}
+
+.layer3{
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 1rem;
+  line-height: 2rem;
+  margin-right: 1rem;
+}
+
+.layer1 h4{
+  padding-top: 1rem;
+  margin-left: 1rem;
+}
+
+
+.layer2{
+  padding-top: 1rem;
+  margin-left: 2rem;
+}
+
+.iconic{
+  padding-top: 1rem;
 }
