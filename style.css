@@ -1,41 +1,65 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200;300&family=Roboto&family=Sora:wght@500&display=swap");
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #fff;
   font-family: "Roboto", sans-serif;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
-nav .logo{
+nav .logo {
   color: #fff;
   margin-right: 10rem;
 }
-nav{
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: rgb(9,16,148);
+  background-color: rgb(9, 16, 148);
   width: 100%;
   padding: 2rem;
 }
-.nav-links{
+.nav-links {
   display: flex;
   justify-content: space-around;
   gap: 1rem;
   width: 30%;
   margin-right: 10rem;
-
 }
-input{
+
+.nav-links li {
+  list-style: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* icons */
+.fa-solid {
+  color: #fff;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  min-height: 3px;
+  margin: 5px;
+  background-color: #fff;
+  transition: all 0.3 ease;
+}
+input {
   width: 4rem;
   height: 25px;
   border: 1px solid #fff;
@@ -43,61 +67,36 @@ input{
   outline: none;
 }
 
-
-#blue{
-  background-color: rgb(9,16,148);
+#blue {
+  background-color: rgb(9, 16, 148);
   color: #fff;
 }
 
-#white{
+#white {
   background-color: #fff;
   color: rgb(14, 26, 249);
 }
 
-form{
+form {
   display: flex;
   justify-content: space-evenly;
   gap: 6px;
+  padding-top: 10px;
 }
 
-
-.nav-links li{
-  list-style: none;
-}
-.nav-links a{
-  text-decoration: none;
-  color: #fff;
-}
-/* icons */
-.fa-solid{
-  color: #fff;
-}
-
-.burger{
-  display: none;
-  cursor: pointer;
-}
-
-.burger div{
-  width: 25px;
-  min-height: 3px;
-  margin: 5px;
-  background-color: #fff;
-  transition: all 0.3 ease;
-}
-
-.container{
-background: linear-gradient(rgba(11, 30, 175, 0.5), rgba(0, 0, 0, 0.5)),  url(/img/right.svg);
+.container {
+  background: linear-gradient(rgba(11, 30, 175, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/right.svg);
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 350px;
 }
-.green{
+.green {
   color: rgb(13, 243, 13);
 }
-.text h1{
+.text h1 {
   text-align: center;
   letter-spacing: 4px;
   align-items: center;
@@ -109,7 +108,7 @@ background: linear-gradient(rgba(11, 30, 175, 0.5), rgba(0, 0, 0, 0.5)),  url(/i
   text-transform: uppercase;
   font-weight: bold;
 }
-.btop{
+.btop {
   display: flex;
   justify-content: center;
   position: relative;
@@ -117,7 +116,7 @@ background: linear-gradient(rgba(11, 30, 175, 0.5), rgba(0, 0, 0, 0.5)),  url(/i
   padding-top: 1rem;
 }
 
-button{
+button {
   background-color: rgb(13, 13, 83);
   color: #fff;
   outline: none;
@@ -127,107 +126,10 @@ button{
   border-radius: 4rem;
   font-family: "Roboto", sans-serif;
 }
- 
-
-@media screen and (max-width: 768px){
-  nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: rgb(9,16,148);
-    width: 100%;  
-  }
-  .text{
-    text-align: center;
-    align-content: center;
-    text-transform: normal;
-    color: #fff;
-  }
-  
-  .nav-links {
-    width: 100%;
-    position: absolute;
-    right: 0px;
-    height: 22rem;
-    top: 12vh;
-    margin: 1rem;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transform: translateX(-150%);
-    transition: transform 20s ease-in;
-  }
-
-  .nav-links li{
-    opacity: 1;
-  }
-  .burger {
-    display: block;
-  }
-
-
-#para{
-  font-size: 10px;
-  line-height: 2rem;
-}
-.row{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.rows{
-  display: flex;
-  position: relative;
-  gap: 2px;
-  overflow-x: auto;
-  animation: forwards 1s ease infinite;
-  transition: all 0.5s ease-in-out;
-}
-
-.row .col1 img{
-  width: 15rem;
-}
-
-#row{
-  display: flex;
-  justify-content: space-around;
-  gap: 2rem;
-  flex-wrap: wrap;
-  }
-
-  #col{
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  }
-
-
-  .image-container div:hover{
-    overflow-x: scroll;
-    overflow: scroll;
-    scroll-behavior: smooth;
-    transition: all 0.5s ease-in-out;
-    transform: scale(2);
-  }
-
-  .layer2{
-    margin-top: 3rem;
-  }
-  
-  ul form{
-    gap: 5rem;
-  }
-
-}
-
-/* Meida ends */
 
 .nav-active {
   transform: translateX(0%);
 }
-
 
 @keyframes navLinkFade {
   from {
@@ -252,12 +154,12 @@ button{
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-
-
-.box{
-  background-color: #0D0D53;
+.box {
+  background-color: #0d0d53;
 }
-.col1{
+
+/* BOX ROW COL1 */
+.col1 {
   background-image: url(/img/daniel-schaffer-25TdvIG_G6s-unsplash.jpg);
   background-position: fixed;
   background-repeat: no-repeat;
@@ -269,23 +171,24 @@ button{
   animation: round 1s ease-in-out infinite;
 }
 
-@keyframes round{
-  from{
-    background-image: url(/img/hannah-busing-FF049vNP1eg-unsplash\ \(copy\).jpg);
+@keyframes round {
+  from {
+    background-image: url(img/nth.jpg);
   }
-  to{
-    background-image: url(/img/nathan-mullet-pmiW630yDPE-unsplash\ \(copy\).jpg);
+  to {
+    background-image: url(img/ha.jpg);
   }
 }
 
-.row{
+
+.row {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 2px;
   /* margin: 1rem;   */
 }
-.col2{
+.col2 {
   display: flex;
   border-left: 1px solid rgb(243, 238, 238);
   border-left: 1px solid rgb(243, 238, 238);
@@ -297,71 +200,69 @@ button{
   color: #fff;
   margin: 1rem;
 }
-span h2{
+span h2 {
   text-align: center;
   /* padding: 2rem; */
 }
-section p{
+section p {
   padding: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
-span .fa-sharp{
+span .fa-sharp {
   margin-left: 1rem;
-  margin-top: 1rem;;
+  margin-top: 1rem;
 }
-.main{
+.main {
   background-color: #fff;
 }
 
-.main h2{
-display: flex;
-justify-content: center;
-padding: 2rem;
-font-family: 'Open Sans', sans-serif;
+.main h2 {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  font-family: "Open Sans", sans-serif;
 }
 
-.main h2 span{
+.main h2 span {
   color: #0f0f11;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-.main .fa-solid{
+.main .fa-solid {
   color: rgb(20, 20, 173);
 }
 
-#row{
-display: flex;
-justify-content: center;
-gap: 5px;
-flex-wrap: wrap;
-/* max-width: 50%; */
+#row {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  /* max-width: 50%; */
 }
 
-#row p{
+#row p {
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #fff;
   box-shadow: inset;
-
 }
 
-#col{
+#col {
   line-height: 1.9rem;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 2rem;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   width: 20rem;
 }
-#col h1{
+#col h1 {
   display: flex;
   justify-content: center;
 }
 
-
-
-html, body {
+html,
+body {
   margin: 0px;
   padding: 0px;
   background: url("http://digital.bnint.com/filelib/s9/photos/white_wood_4500x3000_lo_res.jpg");
@@ -372,16 +273,19 @@ html, body {
   margin-bottom: 3rem;
 }
 
-.carousel h2{
+.carousel h2 {
   text-align: center;
   color: rgb(6, 6, 6);
   text-transform: capitalize;
   background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 1rem;
 }
 .carousel-inner {
   position: relative;
   overflow: hidden;
   width: 100%;
+  margin-top: 1rem;
 }
 
 .carousel-open:checked + .carousel-item {
@@ -470,9 +374,21 @@ html, body {
   color: #aaaaaa;
 }
 
-#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
-#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+#carousel-1:checked
+  ~ .control-1
+  ~ .carousel-indicators
+  li:nth-child(1)
+  .carousel-bullet,
+#carousel-2:checked
+  ~ .control-2
+  ~ .carousel-indicators
+  li:nth-child(2)
+  .carousel-bullet,
+#carousel-3:checked
+  ~ .control-3
+  ~ .carousel-indicators
+  li:nth-child(3)
+  .carousel-bullet {
   color: #428bca;
 }
 
@@ -484,46 +400,47 @@ html, body {
   text-align: center;
   font-size: 27px;
   color: rgba(255, 255, 255, 1);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   z-index: 9999;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33),
+    -1px 0px 2px rgba(255, 255, 255, 0);
 }
 
-.carousel-item p{
+.carousel-item p {
   text-align: center;
   background-color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   text-transform: capitalize;
 }
 
-.carousel .fa-solid{
+.carousel .fa-solid {
   color: #0707c3;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: center;
   background-color: black;
   flex-wrap: wrap;
   color: #fff;
   gap: 4px;
- padding-bottom: 3rem;
- font-family: 'Open Sans', sans-serif;
+  padding-bottom: 3rem;
+  font-family: "Open Sans", sans-serif;
 }
 
-form{
+form {
   margin-top: 1rem;
   position: absolute;
   margin-left: 1rem;
 }
 
-#signUp{
+#signUp {
   border-radius: 4px;
   width: 13rem;
   height: 2.34rem;
 }
-span input{
+span input {
   border-radius: 4px;
   width: 5rem;
   height: 2.34rem;
@@ -533,40 +450,164 @@ span input{
   border: 0;
 }
 
-.layer3{
+.layer3 {
   gap: 1rem;
   padding-top: 1rem;
   line-height: 2rem;
   margin-right: 1rem;
 }
 
-.layer1 h4{
+.layer1 h4 {
   padding-top: 1rem;
   margin-left: 1rem;
 }
 
-
-.layer2{
+.layer2 {
   padding-top: 1rem;
 }
-.layer1 p{
+.layer1 p {
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-.layer2 p{
+.layer2 p {
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-
-.iconic{
+.iconic {
   padding-top: 1rem;
 }
 
-.coder{
+.coder {
   display: flex;
   justify-content: center;
   font-family: monospace;
   font-size: 11px;
 }
+
+
+/* @MEDIA QUERY DISPLAY */
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(9, 16, 148);
+    width: 100%;
+  }
+  .text {
+    text-align: center;
+    align-content: center;
+    text-transform: normal;
+    color: #fff;
+  }
+
+  .nav-links {
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    height: 22rem;
+    top: 12vh;
+    margin: 1rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(-150%);
+    transition: transform 1s ease-in;
+  }
+
+  .nav-links li {
+    opacity: 1;
+  }
+  .burger {
+    display: block;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
+  #para {
+    font-size: 10px;
+    line-height: 2rem;
+  }
+  .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .rows {
+    display: flex;
+    position: relative;
+    gap: 2px;
+    overflow-x: auto;
+    animation: forwards 1s ease infinite;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .row .col1 img {
+    width: 15rem;
+  }
+
+  #row {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  #col {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .image-container div:hover {
+    overflow-x: scroll;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    transition: all 0.5s ease-in-out;
+    transform: scale(2);
+  }
+
+  .layer2 {
+    margin-top: 3rem;
+  }
+
+  ul form {
+    gap: 5rem;
+  }
+  .btop{
+    margin-top: 20px;
+}
+
+}
+/* Meida ends */

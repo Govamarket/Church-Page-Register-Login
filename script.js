@@ -20,6 +20,9 @@ const navSlide = () => {
     });
   };
 
+  navSlide();
+  
+
 
 
 
