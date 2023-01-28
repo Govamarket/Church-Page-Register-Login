@@ -151,7 +151,6 @@ button{
     right: 0px;
     height: 22rem;
     top: 12vh;
-    padding-top: 1rem;
     margin: 1rem;
     background-color: black;
     display: flex;
@@ -217,7 +216,7 @@ button{
     margin-top: 3rem;
   }
   
-  form{
+  ul form{
     gap: 5rem;
   }
 
