@@ -214,6 +214,11 @@ button{
     transform: scale(2);
   }
 
+  .layer2{
+    margin-top: 3rem;
+  }
+  
+
 }
 
 /* Meida ends */
@@ -497,8 +502,9 @@ html, body {
 
 footer{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   background-color: black;
+  flex-wrap: wrap;
   color: #fff;
   gap: 4px;
  padding-bottom:  4rem;
@@ -526,7 +532,6 @@ span input{
 }
 
 .layer3{
-  flex-wrap: wrap;
   gap: 1rem;
   padding-top: 1rem;
   line-height: 2rem;
@@ -541,7 +546,7 @@ span input{
 
 .layer2{
   padding-top: 1rem;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
 }
 
 .iconic{
