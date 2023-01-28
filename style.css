@@ -509,7 +509,7 @@ span input {
     position: absolute;
     right: 0px;
     height: 22rem;
-    top: 12vh;
+    top: 11vh;
     margin: 1rem;
     background-color: black;
     display: flex;
@@ -606,7 +606,7 @@ span input {
     gap: 5rem;
   }
   .btop{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 }
