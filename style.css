@@ -508,6 +508,7 @@ footer{
   color: #fff;
   gap: 4px;
  padding-bottom: 3rem;
+ font-family: 'Open Sans', sans-serif;
 }
 
 form{
@@ -547,6 +548,16 @@ span input{
 .layer2{
   padding-top: 1rem;
 }
+.layer1 p{
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.layer2 p{
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
 
 .iconic{
   padding-top: 1rem;
