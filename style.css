@@ -288,7 +288,7 @@ button{
   display: flex;
   border-left: 1px solid rgb(243, 238, 238);
   border-left: 1px solid rgb(243, 238, 238);
-  border-width: 2px;
+  border-width: 1px;
   width: 20rem;
   height: auto;
   border-top-left-radius: 2rem;
@@ -507,7 +507,7 @@ footer{
   flex-wrap: wrap;
   color: #fff;
   gap: 4px;
- padding-bottom:  4rem;
+ padding-bottom: 3rem;
 }
 
 form{
@@ -546,9 +546,15 @@ span input{
 
 .layer2{
   padding-top: 1rem;
-  /* margin-left: 2rem; */
 }
 
 .iconic{
   padding-top: 1rem;
+}
+
+.coder{
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 11px;
 }
