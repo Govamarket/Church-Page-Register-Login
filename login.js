@@ -66,7 +66,7 @@ buttonSubmit.addEventListener('click',(event) => {
  }else{
   errorIcon.style.visibility = "hidden";
   alert("successfully login");
-  window.location.href = "index.html";
+  window.location.href = "home.html";
 }
 
 emailValid();
