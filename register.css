@@ -12,8 +12,26 @@ body{
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    background-color: #0D0D53;
 }
+
+body{
+    background-image: url(/img/daniel-schaffer-25TdvIG_G6s-unsplash.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    transition: all 4s ease-in-out;
+    animation: round 4s ease-in-out infinite;
+  }
+  
+  @keyframes round {
+    from {
+      background-image: url(img/nth.jpg);
+    }
+    to {
+      background-image: url(img/ha.jpg);
+    }
+  }
 
 .box{
     margin-left: auto;
@@ -22,7 +40,7 @@ body{
     background-color: white;
     box-shadow: 2px 2px 10px 2px rgb(176, 173, 173);
     padding-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     padding: 1.3rem;
     line-height: 1.3rem;
     border-radius: 10px;
