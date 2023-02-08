@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+    <script src="https://kit.fontawesome.com/87a66ec4e9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="box">
+        <span id="head">
+            <h2>Join Us</h2>
+            <i class="fa-sharp fa-solid fa-bug"><p>fill the inputs</p></i>
+        </span>
+        <form action="login.html" id="form">
+            <section>
+                <label for="">Username</label> <br>
+                <input type="text" id="username" placeholder="Enter Username">
+            <p id="emptyusername"></p>
+                    <p id="lessthanusername"></p>
+            </section><br>
+            <!-- Email validation -->
+            <section>
+                <label for="">Email</label><br>
+                <input type="text" id="userEmail" placeholder="Enter email">
+                    <p id="emptymail"></p>
+                    <p id="validmail"></p>
+            </section><br>
+<!-- Adding null -->
+            <!-- Password validation -->
+            <section>
+                <label for="">Password</label><br>
+                <input type="password" id="userPassword" placeholder="Enter password">
+                <p id="emptypsw"></p>
+                <p id="lessthanpassword"></p>
+            </section><br>
+
+            <!-- Confirm Password -->
+            <section>
+                <label for="">Confirm Password</label><br>
+                <input type="password" id="confirm" placeholder="Enter password again">
+                <p id="emptyconfirm"></p>
+                <p id="notmatch"></p>
+            </section>
+            <span id="btn"><button type="button" id="submit">Register</button></span>
+          <p id=""></p>
+        </form>
+    </div>
+
+    <div class="endpoint"></div>
+
+    <script type="module" src="register.js"></script>
+
+</body>
+
+</html>

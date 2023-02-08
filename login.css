@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&family=Sora:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(0,36,79);
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    margin-top: 5rem;
+    background-color: white;
+    box-shadow: 1px 1px 5px 5px rgb(225, 222, 222);
+    padding-bottom: 1rem;
+    border-radius: 5px;
+    position: relative;;
+   
+}
+
+#classic{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+#btn{
+    
+    background-color: rgb(55, 112, 235);
+    width: 23rem;
+    padding: 0.80rem;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 1.60rem;
+}
+
+input{
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 181, 181);
+   text-align: center;
+   font-family: 'Sora', sans-serif;
+}
+label{
+    font-size: 14px;
+    color: rgb(88, 90, 93);
+}
+
+#header{
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:placeholder-shown{
+    text-align: center;
+}
+
+#notmatch, #empty, #emptyPsw, #notmatchPsw{
+    visibility: hidden;
+    color: red;
+    position: absolute;
+    font-size: 15px;
+}
+#match{
+    color: green;
+    visibility: hidden;
+}
+
+.fa-sharp{
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    font-size: 1rem;
+    color: red;
+    visibility: hidden;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1rem;
+}

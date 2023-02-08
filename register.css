@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&family=Sora:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(0,36,79);
+}
+
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    background-color: white;
+    box-shadow: 2px 2px 10px 2px rgb(176, 173, 173);
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1.3rem;
+    line-height: 1.3rem;
+    border-radius: 10px;
+    letter-spacing: 0px;
+}
+
+
+input{
+    width: 100%;
+    height: 2.60rem;
+    border: rgb(226, 229, 236) 1px solid;
+    border-radius: 6px;
+    padding-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+form{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* margin-top: 1rem; */
+}
+#head{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#emptyusername, #lessthanusername, #emptymail, #emptypsw, #lessthanpassword, #emptyconfirm, #notmatch, #validmail{
+    color: red;
+    font-family: 'Sora', sans-serif;
+    font-size: 10px;
+    visibility: hidden;
+    position: absolute;
+}
+.fa-sharp{
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    font-size: 1rem;
+    color: red;
+    visibility: hidden;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+button{
+    width: 20rem;
+    padding: 0.4rem;
+    outline: none;
+    border: 0;
+    color: white;
+    background-color: rgb(39, 102, 236);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 1rem;
+    
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(74, 73, 73);
+    font-family: 'Poppins', sans-serif;
+    
+}

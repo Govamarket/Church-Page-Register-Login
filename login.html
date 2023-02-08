@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/87a66ec4e9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <span id="header"><h2>Welcome Back</h2>
+            <i class="fa-sharp fa-solid fa-bug"><p>fill the inputs</p></i></span>
+        <section>
+            <form action="/Pages/Register.html">
+                <section>
+                    <label for="">Email</label><br>
+                    <input type="text" id="email" placeholder="Enter email">
+                    <p id="empty"></p>
+                    <p id="notmatch"></p>
+                    <p id="match"></p>
+                </section><br>
+                <section>
+                    <label for="">Password</label><br>
+                    <input type="password" id="password" placeholder="Enter Password">
+                    <p id="emptyPsw"></p>
+                    <p id="notmatchPsw"></p>
+                </section>
+                <span id="classic">
+                    <button id="btn" type="button">Login</button>
+                </span>
+            </form>
+        </section>
+    </div>
+    <script src="login.js"></script>
+</body>
