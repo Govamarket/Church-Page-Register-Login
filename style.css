@@ -507,7 +507,7 @@ span input {
   .nav-links {
     width: 100%;
     position: absolute;
-    height: 100vh;
+    height: 70vh;
     top: 10.24vh;
     margin: 1rem;
     background-color: rgb(9, 16, 148);
