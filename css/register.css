@@ -116,6 +116,6 @@ label{
 footer{
     display: flex;
     justify-content: center;
-    font-size: 10px;
+    font-size: 7px;
     font-family: monospace;
 }
