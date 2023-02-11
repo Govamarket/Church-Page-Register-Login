@@ -8,7 +8,7 @@
 
 }
 body{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -111,4 +111,11 @@ label{
     color: rgb(74, 73, 73);
     font-family: 'Poppins', sans-serif;
     
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    font-family: monospace;
 }
