@@ -160,7 +160,7 @@ button {
 
 /* BOX ROW COL1 */
 .col1 {
-  background-image: url(/img/daniel-schaffer-25TdvIG_G6s-unsplash.jpg);
+  background-image: url(../img/daniel-schaffer-25TdvIG_G6s-unsplash.jpg);
   background-position: fixed;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -173,10 +173,10 @@ button {
 
 @keyframes round {
   from {
-    background-image: url(img/nth.jpg);
+    background-image: url(/img/nth.jpg);
   }
   to {
-    background-image: url(img/ha.jpg);
+    background-image: url(/img/ha.jpg);
   }
 }
 
