@@ -25,6 +25,7 @@ nav {
   background-color: rgb(9, 16, 148);
   width: 100%;
   padding: 2rem;
+  position: fixed;
 }
 .nav-links {
   display: flex;
@@ -255,10 +256,24 @@ span .fa-sharp {
   margin-bottom: 2rem;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   width: 20rem;
+  transition: 1s linear;
+  scroll-behavior: unset;
+ 
+}
+
+#col:hover{
+  transform: scale(80%);
+   animation: alternate-reverse 1s linear;
+   font-size: 12px;
+   font-family: monospace;
 }
 #col h1 {
   display: flex;
   justify-content: center;
+}
+
+#col h2{
+  font-size: 16px;
 }
 
 html,
@@ -420,13 +435,16 @@ body {
 
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  letter-spacing: 1px;
+  line-height: 2rem;
   background-color: black;
   flex-wrap: wrap;
   color: #fff;
   gap: 4px;
   padding-bottom: 3rem;
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
 form {
