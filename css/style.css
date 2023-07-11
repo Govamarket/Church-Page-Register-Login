@@ -89,7 +89,7 @@ form {
 
 .container {
   background: linear-gradient(rgba(11, 30, 175, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/right.svg);
+    url(../img/right.svg);
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -176,10 +176,10 @@ button {
 
 @keyframes round {
   from {
-    background-image: url(/img/nth.jpg);
+    background-image: url(../img/nth.jpg);
   }
   to {
-    background-image: url(/img/ha.jpg);
+    background-image: url(../img/ha.jpg);
   }
 }
 
