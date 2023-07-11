@@ -11,7 +11,7 @@ body {
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: unset;
 }
 nav .logo {
   color: #fff;
@@ -26,6 +26,8 @@ nav {
   width: 100%;
   padding: 2rem;
   position: fixed;
+  scroll-snap-type: unset;
+
 }
 .nav-links {
   display: flex;
@@ -193,11 +195,14 @@ button {
   display: flex;
   border-left: 1px solid rgb(243, 238, 238);
   border-left: 1px solid rgb(243, 238, 238);
+  border-right: 1px solid rgb(243, 238, 238);
   border-width: 1px;
   width: 20rem;
   height: auto;
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
   color: #fff;
   margin: 1rem;
 }
@@ -208,8 +213,10 @@ span h2 {
 section p {
   padding: 10px;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 12px;
+  line-height: 2rem;
 }
+
 span .fa-sharp {
   margin-left: 1rem;
   margin-top: 1rem;
@@ -248,6 +255,9 @@ span .fa-sharp {
   background-color: #fff;
   box-shadow: inset;
 }
+#col p{
+  font-size: 14px;
+}
 
 #col {
   line-height: 1.9rem;
@@ -258,13 +268,13 @@ span .fa-sharp {
   width: 20rem;
   transition: 1s linear;
   scroll-behavior: unset;
+  border-bottom-right-radius: 4rem;
  
 }
 
 #col:hover{
   transform: scale(80%);
    animation: alternate-reverse 1s linear;
-   font-size: 12px;
    font-family: monospace;
 }
 #col h1 {
@@ -425,7 +435,7 @@ body {
   text-align: center;
   background-color: #fff;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 10px;
   text-transform: capitalize;
 }
 
@@ -437,14 +447,13 @@ footer {
   display: flex;
   justify-content: space-between;
   letter-spacing: 1px;
-  line-height: 2rem;
   background-color: black;
   flex-wrap: wrap;
   color: #fff;
   gap: 4px;
   padding-bottom: 3rem;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+
 }
 
 form {
@@ -484,13 +493,15 @@ span input {
   padding-top: 1rem;
 }
 .layer1 p {
-  font-size: 16px;
+  font-size: 10px;
   font-family: "Open Sans", sans-serif;
+  line-height: 1rem;
 }
 
 .layer2 p {
-  font-size: 16px;
+  font-size: 10px;
   font-family: "Open Sans", sans-serif;
+  line-height: 1rem;
 }
 
 .iconic {
@@ -620,6 +631,13 @@ span input {
 
   .layer2 {
     margin-top: 3rem;
+  }
+  .layer2 h4{
+    margin-left: 1rem;
+  }
+
+  .layer3 h4{
+    margin-left: 1rem;
   }
 
   ul form {
